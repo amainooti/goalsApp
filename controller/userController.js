@@ -2,7 +2,6 @@ const jwt = require("jsonwebtoken");
 const asyncHandler = require("express-async-handler");
 const bcrypt = require("bcryptjs");
 const User = require("../models/userModel");
-const { findOne } = require("../models/userModel");
 
 
 
